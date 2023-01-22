@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.container {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Button {
+  height: 40px;
+  width: 120px;
+  border-radius: 10px;
+}
+.Dark-Mode {
+  color: #ffffff;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.Light-Mode {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  color: black;
+}
